@@ -1,0 +1,97 @@
+header {
+    background: rgb(6, 30, 45);
+
+    border-radius: 7px;
+    border: 2px solid rgb(4, 52, 86)
+}
+
+body {
+    background:rgb(7, 17, 36);
+    justify-content: center;
+}
+
+h1{
+    color: rgb(107, 166, 175);
+    text-align: center;
+    font-family: "comic sans", sans-serif;
+}
+
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: "comic sans", sans-serif;
+}
+
+div, button.standart-blue {
+    /* Removed invalid align property */
+    vertical-align: top;
+    background: rgb(37, 81, 107);
+
+    padding: 3px;
+
+    border: 2px solid rgb(107, 166, 175);
+    border-radius: 5px;
+    margin-top: 5px;   
+    margin-bottom: 5px; 
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: "comic sans", sans-serif;
+
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+div, button.standart-black-infill {
+    vertical-align: top;
+    background: rgb(6, 30, 45);
+
+    padding: 3px;
+
+    border: 2px solid rgb(107, 166, 175);
+    border-radius: 5px;
+    margin-top: 5px;   
+    margin-bottom: 5px;   
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: "comic sans", sans-serif;
+
+    display: inline-flex;
+    justify-content: center;
+
+
+
+}
+
+button.standart-black-infill{
+    &:hover {
+        background: rgb(15, 60, 80);
+        color: rgb(200, 200, 200);
+    }
+}
+
+button.standart-blue{
+    &:hover {
+        background: rgb(15, 60, 80);
+        color: rgb(200, 200, 200);
+    }
+}
+
+footer{
+    background: rgb(1, 11, 20);
+    display: inline-block;
+    width: 100%;
+
+    border-radius: 5px;
+    border: 2px solid rgb(10, 43, 54);
+
+    text-align: center;
+    color: rgb(120, 120, 120);
+    
+    font-size: 12px;
+}
+
