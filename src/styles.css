@@ -27,7 +27,7 @@ div, button.standart-blue {
     vertical-align: top;
     background: rgb(37, 81, 107);
 
-    padding: 3px;
+    padding: 1%;
 
     border: 2px solid rgb(107, 166, 175);
     border-radius: 5px;
@@ -39,7 +39,7 @@ div, button.standart-blue {
     font-size: 15px;
     font-family: "comic sans", sans-serif;
 
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
 
 }
@@ -48,7 +48,7 @@ div, button.standart-black-infill {
     vertical-align: top;
     background: rgb(6, 30, 45);
 
-    padding: 3px;
+    padding: 1%;
 
     border: 2px solid rgb(107, 166, 175);
     border-radius: 5px;
@@ -60,7 +60,7 @@ div, button.standart-black-infill {
     font-size: 15px;
     font-family: "comic sans", sans-serif;
 
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
 
 
